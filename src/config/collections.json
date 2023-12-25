@@ -1,0 +1,20 @@
+[
+  { "id": "abudawud", "englishName": "Sunan Abi Dawud", "name": "سنن أبي داود", "aliases": ["أبي داود"], "api": true },
+  { "id": "adab", "englishName": "Al-Adab Al-Mufrad", "name": "الأدب المفرد", "aliases": ["الأدب المفرد"], "api": true },
+  { "id": "ahmad", "englishName": "Musnad Ahmad", "name": "مسند أحمد", "aliases": ["أحمد"], "api": true },
+  { "id": "bukhari", "englishName": "Sahih al-Bukhari", "name": "صحيح البخاري", "aliases": ["البخاري"], "api": true },
+  { "id": "ibnmajah", "englishName": "Sunan Ibn Majah", "name": "سنن ابن ماجه", "aliases": ["ابن ماجه"], "api": true },
+  { "id": "mishkat", "englishName": "Mishkat al-Masabih", "name": "مشكاة المصابيح", "aliases": ["مشكاة المصابيح"], "api": true },
+  { "id": "muslim", "englishName": "Sahih Muslim", "name": "صحيح مسلم", "aliases": ["مسلم"], "api": true },
+  { "id": "nasai", "englishName": "Sunan an-Nasa'i", "name": "سنن النسائي", "aliases": ["النسائي"], "api": true },
+  { "id": "nawawi40", "englishName": "An-Nawawi's 40 Hadith", "name": "الأربعون النووية", "aliases": ["الأربعون النووية"], "api": true },
+  { "id": "riyadussalihin", "englishName": "Riyad as-Salihin", "name": "رياض الصالحين", "aliases": ["رياض الصالحين"], "api": true },
+  { "id": "tirmidhi", "englishName": "Jami` at-Tirmidhi", "name": "جامع الترمذي", "aliases": ["الترمذي"], "api": true },
+  {
+    "id": "shamail",
+    "englishName": "Ash-Shama'il Al-Muhammadiyah",
+    "name": "الشمائل المحمدية",
+    "aliases": ["الشمائل المحمدية"],
+    "api": true
+  }
+]

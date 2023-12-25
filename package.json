@@ -1,0 +1,27 @@
+{
+  "name": "hadith-toolkit",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.mjs",
+  "scripts": {
+    "build:esm": "babel src --out-dir dist/esm --extensions '.js' --source-maps",
+    "build:cjs": "babel src --out-dir dist/cjs --extensions '.js' --source-maps --presets @babel/preset-env",
+    "build:copy:cjs": "cp -r src/config dist/esm/ && cp -r src/data dist/esm/",
+    "build:copy:esm": "cp -r src/config dist/cjs/ && cp -r src/data dist/cjs/",
+    "build:copy": "npm run build:copy:esm && npm run build:copy:cjs",
+    "build": "npm run build:esm && npm run build:cjs && npm run build:copy",
+    "postinstall": "npm run build",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.3",
+    "jest": "^29.7.0",
+    "lodash": "^4.17.20"
+  }
+}
