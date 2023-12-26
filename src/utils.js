@@ -37,7 +37,6 @@ const getHadiths = async (collectionId, hadithBaseId) => {
       return {
         ...h,
         collection: getCollection(collectionId).englishName,
-        grade: h.grade || '',
       };
     });
 };
