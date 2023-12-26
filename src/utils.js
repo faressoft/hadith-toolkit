@@ -43,5 +43,6 @@ const getHadiths = async (collectionId, hadithBaseId) => {
 
 module.exports = {
   detectCollectionId,
+  getCollection,
   getHadiths,
 };
