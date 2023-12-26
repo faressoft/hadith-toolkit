@@ -1,4 +1,4 @@
-const { detectCollectionId, getHadiths } = require('./utils');
+const { detectCollectionId, getCollection, getHadiths } = require('./utils');
 
 module.exports = {
   detectCollectionId,
